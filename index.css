@@ -1,0 +1,78 @@
+#produits{
+    width: 300px;
+}
+.nav{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 50px;
+gap: 20px;
+}
+h1{
+   
+    font-size: 30px;
+    
+ }
+.camera{
+    max-width: 300px;
+    justify-content: center;
+    margin-left: 20px;
+}
+.impremante{
+    max-width: 300px;
+    justify-content: center;
+    
+  
+}
+.impremantehp{
+    max-width: 250px;
+    justify-content: center;
+    margin-left: 20px;
+   
+}
+.container{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+   
+    padding-top: 50px;
+    
+   
+    
+    
+       
+}
+.carte{
+    border: 2px solid black;
+    border-radius: 5px;
+   margin: 50px;
+   
+   
+    
+}
+
+.panier{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.myheard{
+    padding-top: 8px;
+    
+}
+.myheardevent{
+    color: red;
+}
+
+
+
+
+p{
+    font-size: 20px;
+}
+
