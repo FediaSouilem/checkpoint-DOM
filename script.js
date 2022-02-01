@@ -43,6 +43,7 @@ function calculatetotal(){
 for(let i=0; i<moins.length; i++){
    
     moins[i].addEventListener('click', ()=>{
+    if(moins[i].previousElementSibling.innerHTML>0)
     moins[i].previousElementSibling.innerHTML--
     calculatetotal()
     })
